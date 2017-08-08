@@ -1,0 +1,4 @@
+# ThumbnailDemo
+这是一个主要引用transferee的使用，及缩略图的调试探索
+引用transferee，发现一个bug当图片大小到达一定大小就会崩掉
+查询MediaStore.Images.Thumbnails.EXTERNAL_CONTENT_URI数据库发现（华为6.0为空）
